@@ -6,6 +6,10 @@ gem 'uglifier', '>= 1.3.0'
 
 gem 'jbuilder', '~> 2.0'
 
+group :production do
+  gem 'passenger'
+end
+
 group :development, :test do
   gem 'byebug'
 end
