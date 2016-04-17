@@ -1,8 +1,8 @@
 ### About
-A way to use Browserify and keep asset pipeline.
-Uses watchify.  Way faster than browserify-rails.
-Basically generates a bundle.js file and sprockets requires this file.  
-In production it compiles bundle.js before doing RAILS_ENV=production rake assets:precompile
+1. A way to use Browserify(or Webpack if you want) and keep asset pipeline for images and Sass
+2. Uses watchify.  Way faster than browserify-rails.
+3. Basically generates a bundle.js in development and sprockets requires this file.  
+4. In production it compiles bundle.js before doing RAILS_ENV=production rake assets:precompile
 Everything works as expected
 
 ### Setup
