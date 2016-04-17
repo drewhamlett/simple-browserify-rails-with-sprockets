@@ -1,0 +1,29 @@
+{
+  "name": "simple-browserify-rails-with-sprockets",
+  "version": "1.0.0",
+  "description": "Browserify with Rails",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Drew Hamlett",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-es2015": "^6.6.0",
+    "babelify": "7.2.0",
+    "browserify": "13.0.0",
+    "jquery": "2.2.3",
+    "jquery-ujs": "1.2.1",
+    "lodash": "4.11.1",
+    "moment": "2.12.0"
+  },
+  "devDependencies": {
+    "browser-sync": "2.12.3",
+    "watchify": "3.7.0"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  }
+}
