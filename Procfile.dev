@@ -1,0 +1,4 @@
+rails: bin/rails s -p 3001
+browserify: bin/rake browserify:development
+browser-sync: bin/rake browser_sync
+log: tail -f ./log/development.log
